@@ -1,0 +1,108 @@
+.news-blog {
+  font-family: Arial, sans-serif; /* 폰트 설정 */
+  padding: 20px; /* 내부 여백 */
+  background-color: #f5f5f5; /* 배경 색상 */
+  border-radius: 5px; /* 테두리 반경 */
+  margin: 0 auto; /* 가운데 정렬 */
+  max-width: 800px; /* 최대 폭 설정 */
+}
+
+.post-section {
+  display: flex; /* 플렉스 디스플레이 설정 */
+  justify-content: space-between; /* 간격 벌리기 */
+}
+
+.post-list {
+  flex: 1; /* 플렉스 아이템 크기 지정 */
+  background-color: #ffffff; /* 배경 색상 */
+  padding: 20px; /* 내부 여백 */
+  border: 1px solid #ccc; /* 테두리 설정 */
+  border-radius: 5px; /* 테두리 반경 */
+}
+
+.post-list ul {
+  list-style: none; /* 목록 스타일 제거 */
+  padding: 0; /* 내부 여백 제거 */
+}
+
+.post-form {
+  flex: 1; /* 플렉스 아이템 크기 지정 */
+  background-color: #fff; /* 배경 색상 */
+  padding: 20px; /* 내부 여백 */
+  border: 1px solid #ccc; /* 테두리 설정 */
+  border-radius: 5px; /* 테두리 반경 */
+}
+
+.selected-post {
+  margin-top: 20px; /* 위 여백 설정 */
+  padding: 20px; /* 내부 여백 */
+  background-color: #fff; /* 배경 색상 */
+  border: 1px solid #ccc; /* 테두리 설정 */
+  border-radius: 5px; /* 테두리 반경 */
+}
+
+.comment-section {
+  margin-top: 20px; /* 위 여백 설정 */
+  color: black; /* 글자 색상 */
+}
+
+.comment-form {
+  margin-top: 20px; /* 위 여백 설정 */
+  padding: 10px; /* 내부 여백 */
+  background-color: #ffffff; /* 배경 색상 */
+  border: 1px solid #ccc; /* 테두리 설정 */
+  border-radius: 5px; /* 테두리 반경 */
+}
+
+.comment-form textarea {
+  width: 100%; /* 전체 폭 지정 */
+  height: 100px; /* 높이 지정 */
+  color: black; /* 글자 색상 */
+}
+
+.comment-form button {
+  width: 100%; /* 전체 폭 지정 */
+  margin-top: 10px; /* 위 여백 설정 */
+}
+
+.comment-list {
+  margin-top: 20px; /* 위 여백 설정 */
+}
+
+.comment-item {
+  display: flex; /* 플렉스 디스플레이 설정 */
+  justify-content: space-between; /* 간격 벌리기 */
+  margin-bottom: 10px; /* 아래 여백 설정 */
+  color: black; /* 글자 색상 */
+}
+
+.comment-section > h3 {
+  color: black; /* 글자 색상 */
+}
+
+.center-content {
+  display: flex; /* 플렉스 디스플레이 설정 */
+  flex-direction: column; /* 세로 방향으로 정렬 */
+  align-items: center; /* 가로 정렬 */
+  justify-content: center; /* 세로 정렬 */
+  height: 100vh; /* 뷰포트 높이 100% */
+}
+
+.new-post {
+  width: 80%; /* 너비 설정 */
+  margin: 0 auto; /* 가운데 정렬 */
+}
+
+.input-group {
+  margin-bottom: 20px; /* 아래 여백 설정 */
+}
+
+#postTitle {
+  width: 100%; /* 전체 폭 지정 */
+  height: 40px; /* 높이 지정 */
+}
+
+#postContent {
+  width: 100%; /* 전체 폭 지정 */
+  height: 200px; /* 높이 지정 */
+}

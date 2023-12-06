@@ -1,0 +1,33 @@
+.content-container {
+  display: flex;
+  justify-content: baseline; /* 가로 정렬 기준선 정렬 */
+  align-items: center; /* 세로 중앙 정렬 */
+  height: 100vh; /* 뷰포트 높이 100% */
+  background-color: #4e70a9; /* 배경 색상 */
+}
+
+.content-grid {
+  display: flex;
+  flex-direction: column; /* 세로 방향으로 컨텐츠 배열 */
+  align-items: center; /* 내용 가운데 정렬 */
+}
+
+.content-item {
+  background-color: white; /* 흰색 배경 */
+  border-radius: 8px; /* 테두리 반경 */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+  padding: 20px; /* 내부 여백 */
+  margin: 20px; /* 외부 여백 */
+  text-align: center; /* 텍스트 중앙 정렬 */
+}
+
+h2 {
+  color: #0b0b0c; /* 글자 색상 */
+  font-weight: bold; /* 볼드체 */
+}
+
+img {
+  width: 100%; /* 최대 폭 100% */
+  max-width: 700px; /* 최대 폭 700px */
+  height: auto; /* 높이 자동 조절 */
+}
